@@ -1,0 +1,116 @@
+.footer {
+  .top {
+    padding-top: 80px;
+    background: #1E212C;
+    height: 396px;
+    display: flex;
+    justify-content: center;
+
+    .container {
+      padding: 0 10%;
+      //width: 1230px;
+      display: flex;
+      color: rgba(255, 255, 255, 0.6);
+
+      h6 {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 1px;
+        text-align: left;
+        color: #ffffff;
+        text-transform: uppercase;
+      }
+
+      a {
+        display: block;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0em;
+        text-align: left;
+        line-height: 25.6px;
+        margin: 8px 0;
+
+      }
+
+
+      .col_1 {
+        width: 350 / (1920/100) *100%;
+        margin-right: 80px;
+
+        img {
+          height: 19.600000381469727px;
+          width: 104.4998550415039px;
+          left: -0.000244140625px;
+          top: 1.30078125px;
+          border-radius: 0px;
+
+        }
+      }
+
+      .col_2 {
+        width: 100 / (1920/100) *100%;
+        margin-right: 80px;
+
+      }
+
+      .col_3 {
+        width: 100 / (1920/100) *100%;
+        margin-right: 80px;
+
+      }
+
+      .col_4 {
+        width: 100 / (1920/100) *100%;
+        margin-right: 80px;
+      }
+
+      .col_5 {
+        width: 350 / (1920/100) *100%;
+      }
+
+    }
+  }
+
+  .bottom {
+    background: #1E212C;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+
+    .container {
+      padding: 0 10%;
+      width: 1230px;
+      display: flex;
+      justify-content: space-between;
+
+      .left {
+        display: flex;
+
+        p {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 150%;
+          display: flex;
+          align-items: center;
+          color: #FFFFFF;
+          flex: none;
+          order: 2;
+          flex-grow: 0;
+        }
+      }
+
+      .right {
+        width: 74px;
+        height: 21px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        color: #FFFFFF;
+        opacity: 0.6;
+      }
+    }
+  }
+}
