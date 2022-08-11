@@ -6,7 +6,6 @@ const Lectures = ({date, title, type}) => {
     const clock = new Date(date).toLocaleTimeString().slice(0, -3); // 11:02
     const month = new Date(date).getMonth()
     const arrayMonth = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Ноябрь', 'Декабрь',];
-    console.log(title)
     return (<div className="lectures">
         <div className="data">
             <div className="day">{d < 10 ? "0" + d : d}</div>

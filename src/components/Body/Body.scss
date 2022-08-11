@@ -1,0 +1,40 @@
+.containerBody {
+  display: flex;
+  justify-content: center;
+
+  .header {
+    display: flex;
+    flex-direction: column;
+
+    h6 {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 1px;
+      text-align: left;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 46px;
+      font-weight: 900;
+      line-height: 60px;
+      letter-spacing: 0em;
+      text-align: center;
+      margin-top: 8px;
+    }
+  }
+}
+
+.lectur {
+  padding: 0 150px;
+}
+
+.grid {
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: 390px 390px 390px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  padding: 0 150px;
+}

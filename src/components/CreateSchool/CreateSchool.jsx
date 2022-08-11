@@ -13,7 +13,8 @@ const CreateSchool = () => {
                 <div>
                     <form className="form">
                         <button type="button">Subscribe</button>
-                        <input type="text" placeholder="Your working email" value=""/>
+                        <input type="text" placeholder="Your working email" value="" onChange={() => {
+                        }}/>
                     </form>
                 </div>
             </div>

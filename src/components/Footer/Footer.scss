@@ -1,14 +1,14 @@
 .footer {
+  background: #1E212C;
+
   .top {
     padding-top: 80px;
-    background: #1E212C;
-    height: 396px;
     display: flex;
     justify-content: center;
 
     .container {
+      width: 1240px;
       padding: 0 10%;
-      //width: 1230px;
       display: flex;
       color: rgba(255, 255, 255, 0.6);
 
@@ -34,54 +34,66 @@
 
       }
 
-
       .col_1 {
-        width: 350 / (1920/100) *100%;
+        width: 350px;
         margin-right: 80px;
 
-        img {
-          height: 19.600000381469727px;
-          width: 104.4998550415039px;
-          left: -0.000244140625px;
-          top: 1.30078125px;
-          border-radius: 0px;
-
+        .icons {
+          display: flex;
+          justify-content: space-between;
         }
       }
 
       .col_2 {
-        width: 100 / (1920/100) *100%;
+        width: 110px;
         margin-right: 80px;
-
       }
 
       .col_3 {
-        width: 100 / (1920/100) *100%;
+        width: 110px;
         margin-right: 80px;
-
       }
 
       .col_4 {
-        width: 100 / (1920/100) *100%;
+        width: 120px;
         margin-right: 80px;
       }
 
       .col_5 {
-        width: 350 / (1920/100) *100%;
+        width: 350px;
+
+        input {
+          margin: 12px 0;
+          width: 286px;
+          height: 36px;
+          background: rgba(255, 255, 255, 0.12);
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          border-radius: 4px;
+          padding-left: 12px;
+        }
+
+        p {
+          font-size: 10px;
+          font-weight: 400;
+          line-height: 15px;
+          letter-spacing: 0;
+          text-align: left;
+          color: #ffffff;
+        }
       }
 
     }
   }
 
   .bottom {
-    background: #1E212C;
-    height: 58px;
+    margin-top: 40px;
+    background: rgba(255, 255, 255, 0.05);
     display: flex;
     justify-content: center;
 
     .container {
+      width: 1240px;
       padding: 0 10%;
-      width: 1230px;
       display: flex;
       justify-content: space-between;
 
@@ -96,14 +108,10 @@
           display: flex;
           align-items: center;
           color: #FFFFFF;
-          flex: none;
-          order: 2;
-          flex-grow: 0;
         }
       }
 
       .right {
-        width: 74px;
         height: 21px;
         font-style: normal;
         font-weight: 700;
