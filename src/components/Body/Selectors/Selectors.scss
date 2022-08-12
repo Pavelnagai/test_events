@@ -1,24 +1,20 @@
 .selectors {
   display: flex;
-  padding: 0 170px;
+  justify-content: space-between;
 
   div {
-    font-family: Lato;
     font-size: 16px;
     font-weight: 700;
     line-height: 26px;
-    letter-spacing: 0em;
     text-align: left;
-
   }
 
   .eventCategory {
     display: flex;
-    width: 20vw;
     align-items: center;
-    margin-right: 40px;
 
     select {
+      padding: 0 12px;
       width: 160px;
       height: 44px;
       margin-left: 12px;
@@ -26,40 +22,34 @@
       background: #FFFFFF;
       border: 1px solid #D7DADD;
       border-radius: 4px;
-      flex: none;
-      order: 1;
-
+      color: #424551;
     }
   }
 
   .sortBy {
-    width: 20vw;
-    margin-right: 40px;
     display: flex;
     align-items: center;
 
     select {
       margin-left: 12px;
+      padding: 0 12px;
       width: 160px;
       height: 44px;
       box-sizing: border-box;
       background: #FFFFFF;
       border: 1px solid #D7DADD;
       border-radius: 4px;
-      flex: none;
-      order: 1;
-
+      color: #424551;
     }
   }
 
   .show {
-    width: 20vw;
-    margin-right: 40px;
     display: flex;
     align-items: center;
 
-    select {
+    input {
       margin: 0 12px;
+      padding: 0 12px;
       box-sizing: border-box;
       width: 72px;
       height: 44px;
@@ -71,7 +61,6 @@
     p {
       width: 97px;
       height: 21px;
-      font-family: 'Lato';
       font-style: normal;
       font-weight: 400;
       font-size: 14px;
@@ -81,31 +70,53 @@
   }
 
   .form {
-    width: 20vw;
-    margin-right: 40px;
     display: flex;
     align-items: center;
 
-    input {
-      box-sizing: border-box;
+    > div {
       min-width: 240px;
-      height: 44px;
-      left: 1201px;
-      top: 304px;
-      background: #FFFFFF;
-      border: 1px solid #D7DADD;
-      border-radius: 4px;
+      position: relative;
+
+      > input {
+        box-sizing: border-box;
+        min-width: 240px;
+        height: 44px;
+        left: 1201px;
+        top: 304px;
+        background: #FFFFFF;
+        border: 1px solid #D7DADD;
+        border-radius: 4px;
+        padding: 0 16px;
+      }
+
+      > i {
+        position: absolute;
+        top: 9px;
+        right: 9px;
+        font-size: 16px;
+        color: #D7DADD;
+        cursor: pointer;
+      }
     }
   }
 
   .radio {
-    width: 10vw;
     display: flex;
     justify-content: end;
     align-items: center;
 
-    i {
+    .icon {
+      font-size: 20px;
+      color: #424551;
       padding: 10px;
+      cursor: pointer;
+      -webkit-transition: color 200ms;
+      -o-transition: color 200ms;
+      transition: color 200ms;
+
+      &--active {
+        color: #FF3F3A;
+      }
     }
   }
 }
